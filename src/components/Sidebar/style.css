@@ -1,0 +1,87 @@
+.sidepanel{
+    background-color:#191f28;
+}
+.user{
+    /* background-color: #242323; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:20px;
+    /* border:3px solid deepskyblue; */
+    padding:20px;
+    border-radius:50px;
+}
+
+.user p{
+    color: #eeeeee;
+    font-weight: bolder;
+    font-size:1rem;
+    line-height:0px;
+    margin:none;
+}
+
+.user span{
+    color: #cccccc;
+}
+
+.user-pic{
+    background-image: url('./users.png');
+    width:70px;
+    height:70px;
+    background-size:300px;
+    background-position:1000px 1000px;
+    border-radius:100px;
+}
+
+ul{
+    padding:0px;
+    margin-top:20px;
+}
+
+li{
+    list-style: none;
+    padding:10px;
+    text-transform: uppercase;
+    color:#5e6268;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+li i {
+    color: #797c83 !important;
+    margin-right:15px;
+    margin-left:15px;
+}
+
+li i , li span{
+    transition: all .3s ease-in-out;
+    pointer-events: none;
+    font-size:0.9rem !important;
+}
+
+
+
+li:hover,li:hover i{
+    color:#ffffff !important;
+}
+
+li.active{
+    background-image:linear-gradient(90deg ,rgba(30, 143, 255, 0) 0%,dodgerblue 100%);
+    color: #ffffff !important;
+}
+li.active i{
+    color: #ffffff !important;
+}
+
+li:hover{
+    background-image:linear-gradient(90deg ,rgba(30, 143, 255, 0) 0%,#eeeeeea6 100%);
+}
+
+a{
+    text-decoration: none;
+    font-size:1rem;
+    color: #aaaaaa;
+    font-weight: bold;
+}

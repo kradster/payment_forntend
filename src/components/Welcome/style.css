@@ -1,0 +1,86 @@
+.welcome{
+    background-color: aliceblue;
+    height:100vh;
+    box-sizing: border-box;
+    display:flex;
+}
+
+.welcome-image{
+    width:50vw;
+    background-image: url('./welcome.png');
+    background-color:#191f28;
+    background-size: cover;
+    background-position:center;
+}
+
+.wrapper{
+    background-color:whitesmoke;
+    width:50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome-heading-small{
+    color: grey;
+    font-size: 2rem;
+    text-align:left;
+}
+.welcome-heading-big{
+    color: grey;
+    font-size:3rem;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.welcome-form{
+    padding: 20px;
+}
+
+.welcome-form-input{
+    width:400px;
+    margin-top:20px;
+    position: relative;
+    background-color:white;
+    padding:5px 20px 10px 20px;
+    border-radius:10px;
+    box-shadow:0px 2px 5px 1px rgba(0, 0, 0, 0.12) inset;
+}
+
+.welcome-label {
+    color:gray;
+    font-size:0.8rem;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+.welcome-input {
+    width:100%;
+    border: none;
+    outline: none;
+    transition:all .3s linear;
+}
+
+
+
+.button{
+    width:200px;
+    border:none;
+    outline: none;
+    height:50px;
+    border-radius:10px;
+    text-transform: uppercase;
+    margin-top:40px;
+    background-color:rgb(14, 111, 207);
+    color: #eeeeee;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.button:hover{
+    background-color:rgb(3, 79, 155);
+    color:aliceblue;
+}

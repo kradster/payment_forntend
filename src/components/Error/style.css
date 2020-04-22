@@ -1,0 +1,43 @@
+.error-wrapper{
+    padding:10px;
+    border-radius: 10px;
+    max-width:300px;
+    word-wrap: break-word;
+    border:1px solid salmon;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.error-wrapper span{
+    display: flex;
+    justify-content: center;
+}
+
+.error-wrapper i {
+    color: red !important;
+    font-size:2rem !important;
+}
+
+.data{
+    font-size:1.5rem;
+    color:red;
+    font-weight: 100;
+}
+
+.error-button{
+    width:100%;
+    border:0px;
+    color:red;
+    background-color: white;
+    text-transform: uppercase;
+    padding:10px;
+    border:1px solid red;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius:5px;
+    outline: none;
+}
+
+.error-button:hover{
+    background-color: red;
+    color:white;
+}
+

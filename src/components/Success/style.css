@@ -1,0 +1,47 @@
+.success-wrapper{
+    padding:10px;
+    border-radius: 10px;
+    width:400px;
+    word-wrap: break-word;
+    box-shadow:3px 3px 10px 0px #eeeeee;
+}
+
+.data-label{
+    display: flex;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom:10px;
+    justify-items: center;
+    justify-content: center;
+    font-size:1.2rem;
+    color:dodgerblue;
+}
+.data-label i {
+    color:dodgerblue !important;
+
+}
+
+.success-data{
+    font-size:1.5rem;
+    color:black;
+    text-align:justify;
+}
+
+.success-button{
+    width:100%;
+    border:0px;
+    color:dodgerblue;
+    background-color: white;
+    text-transform: uppercase;
+    padding:10px;
+    border:1px solid dodgerblue;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius:5px;
+    outline: none;
+}
+
+.success-button:hover{
+    background-color: dodgerblue;
+    color:white;
+}
+

@@ -1,0 +1,54 @@
+.dashboard{
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns:250px auto;
+    height:calc(100vh - 40px);
+    padding:20px;
+    
+}
+
+.main-panel{
+    background-color: #ffffff;
+    display:grid;
+    grid-template-rows:60px;
+    box-shadow:5px 5px 10px 1px rgb(0, 0, 0,0.1);
+    position: relative;
+}
+
+.title{
+    color:#aaaaaa;
+    font-size:1.5rem;
+    padding:10px 20px;
+    border-bottom: 1px solid #eeeeee;
+
+}
+.title span{
+    color: #191f28;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.title button{
+    float: right;
+    display: flex;
+    font-size:1.1rem;
+    background-color: white;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding:5px 10px;
+    border-radius:5px;
+    transition:all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.title button:hover{
+    background-color:#eeeeee;
+}
+
+.tab-wrapper{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
