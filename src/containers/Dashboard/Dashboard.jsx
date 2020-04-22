@@ -78,7 +78,7 @@ export default class Dashboard extends Component {
                 <Sidebar tab={this.state.tab} changeTab={this.changeTab}  />
                 <div className="main-panel">
                     <div className="title">
-                    Welcome to <span>{this.TabTitles[this.state.tab]}</span>
+                     <span>{this.TabTitles[this.state.tab]}</span>
                     <button onClick={this.logout} ><Icon icon="exit_to_app" /> Exit</button>
                     </div>
                     <div className="tab-wrapper">

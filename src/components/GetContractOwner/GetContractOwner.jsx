@@ -62,7 +62,7 @@ export default class GetContractOwner extends Component {
                     <input placeholder="" onChange={this.inputHandeler} id="contractAddress" value={this.state.contractAddress} className="welcome-input" type="text" required/>
                     </div>
                    
-                    <input className="button" onClick={this.getContractOwner} type="button" value="Destroy Contract" />
+                    <input className="button" onClick={this.getContractOwner} type="button" value="Get Contract Owner" />
                 </div>:null
                }
             </div>
