@@ -10,7 +10,7 @@ export default class Destroy extends Component {
         this.state = {
             data:undefined,
             Loading:false,
-            "sender":"0x00BEFBec4AA42230E88b8fF6291Aeba25a5eb887", 
+            "sender":sessionStorage.address, 
             "contractAddress": "0x654592dF1bc10E1298277Ce20941E2cbe00092BD"
         }
 

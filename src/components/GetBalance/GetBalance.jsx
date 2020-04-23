@@ -10,7 +10,7 @@ export default class GetBalance extends Component {
         this.state = {
             data:undefined,
             Loading:false,
-            address:"0x70b71530f8da7266F21dbF0c9fF1FC2fB210d4ca"
+            address:sessionStorage.address
 
         }
 

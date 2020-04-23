@@ -10,7 +10,7 @@ export default class Deploy extends Component {
     constructor(props){
         super(props)
         this.state = {
-            "sender":"0x00BEFBec4AA42230E88b8fF6291Aeba25a5eb887", 
+            "sender":sessionStorage.address, 
             "recipient":"0xF1638221192ebeB5B423ECC984cE737e44FB1a97",
             "amount": "0.1",
             "duration":"180"

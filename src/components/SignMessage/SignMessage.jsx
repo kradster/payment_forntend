@@ -10,7 +10,7 @@ export default class SignMessage extends Component {
         this.state = {
             data:undefined,
             Loading:false,
-            "signer":"0x00BEFBec4AA42230E88b8fF6291Aeba25a5eb887", 
+            "signer":sessionStorage.address, 
         "recipient":"0xF1638221192ebeB5B423ECC984cE737e44FB1a97",
         "amount": "1000",
         "contractAddress": "0x66e0f3678C655d0044221aBf5f9aa499BbB08418"}
