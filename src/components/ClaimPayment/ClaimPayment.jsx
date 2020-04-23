@@ -62,20 +62,20 @@ export default class ClaimPayment extends Component {
                {!!!this.state.data?
                 <div className="welcome-form">
                     <div className="welcome-form-input">
-                    <label htmlFor="name" className="welcome-label">From Account</label>
-                    <input placeholder="" onChange={this.inputHandeler} id="fromAcc" value={this.state.fromAcc} className="welcome-input" type="text" required/>
+                    <label htmlFor="fromAcc" className="welcome-label">From Account</label>
+                    <input placeholder="" onChange={this.inputHandeler} name="fromAcc" id="fromAcc" value={this.state.fromAcc} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
-                    <label htmlFor="email" className="welcome-label">amount</label>
-                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} id="amount" value={this.state.amount} className="welcome-input" type="text" required/>
+                    <label htmlFor="amount" className="welcome-label">amount</label>
+                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} name="amount" id="amount" value={this.state.amount} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
-                    <label htmlFor="address" className="welcome-label">contract Address</label>
-                    <input onChange={this.inputHandeler}  id="contractAdd" value={this.state.contractAdd} className="welcome-input" type="text"required />
+                    <label htmlFor="contractAdd" className="welcome-label">contract Address</label>
+                    <input onChange={this.inputHandeler} name="contractAdd"  id="contractAdd" value={this.state.contractAdd} className="welcome-input" type="text"required />
                     </div>
                     <div className="welcome-form-input">
-                    <label htmlFor="address" className="welcome-label">signature</label>
-                    <input onChange={this.inputHandeler}  id="signature" value={this.state.signature} className="welcome-input" type="text"required />
+                    <label htmlFor="signature" className="welcome-label">signature</label>
+                    <input onChange={this.inputHandeler} name="signature"  id="signature" value={this.state.signature} className="welcome-input" type="text"required />
                     </div>
                     <input className="button" onClick={this.claimPayment} type="button" value="CLAIM PAYMENT" />
                 </div>:null

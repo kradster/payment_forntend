@@ -59,11 +59,11 @@ export default class Destroy extends Component {
                 <div className="welcome-form">
                     <div className="welcome-form-input">
                     <label htmlFor="sender" className="welcome-label">Sender</label>
-                    <input placeholder="" onChange={this.inputHandeler} id="sender" value={this.state.sender} className="welcome-input" type="text" required/>
+                    <input placeholder="" onChange={this.inputHandeler} name="sender" id="sender" value={this.state.sender} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
                     <label htmlFor="contractAddress" className="welcome-label">Contract Address</label>
-                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} id="contractAddress" value={this.state.contractAddress} className="welcome-input" type="text" required/>
+                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} name="contractAddress" id="contractAddress" value={this.state.contractAddress} className="welcome-input" type="text" required/>
                     </div>
                     <input className="button" onClick={this.destroy} type="button" value="Destroy Contract" />
                 </div>:null

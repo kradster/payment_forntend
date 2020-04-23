@@ -59,7 +59,7 @@ export default class GetTimeout extends Component {
                 <div className="welcome-form">
                     <div className="welcome-form-input">
                     <label htmlFor="contractAddress" className="welcome-label">Contract Address</label>
-                    <input placeholder="" onChange={this.inputHandeler} id="contractAddress" value={this.state.contractAddress} className="welcome-input" type="text" required/>
+                    <input placeholder="" onChange={this.inputHandeler} name="contractAddress" id="contractAddress" value={this.state.contractAddress} className="welcome-input" type="text" required/>
                     </div>
                    
                     <input className="button" onClick={this.getTimeout} type="button" value="Get Timeout" />

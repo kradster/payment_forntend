@@ -66,19 +66,19 @@ export default class Deploy extends Component {
                 <div className="welcome-form">
                     <div className="welcome-form-input">
                     <label htmlFor="sender" className="welcome-label">From Account</label>
-                    <input placeholder="" onChange={this.inputHandeler} id="sender" value={this.state.sender} className="welcome-input" type="text" required/>
+                    <input placeholder="" onChange={this.inputHandeler} name="sender" id="sender" value={this.state.sender} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
                     <label htmlFor="recipient" className="welcome-label">recipient</label>
-                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} id="recipient" value={this.state.recipient} className="welcome-input" type="text" required/>
+                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} name="recipient" id="recipient" value={this.state.recipient} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
                     <label htmlFor="amount" className="welcome-label">amount</label>
-                    <input onChange={this.inputHandeler}  id="contractAdd" value={this.state.amount} className="welcome-input" type="text"required />
+                    <input onChange={this.inputHandeler} name="amount"  id="amount" value={this.state.amount} className="welcome-input" type="text"required />
                     </div>
                     <div className="welcome-form-input">
                     <label htmlFor="duration" className="welcome-label">duration</label>
-                    <input onChange={this.inputHandeler}  id="duration" value={this.state.duration} className="welcome-input" type="text"required />
+                    <input onChange={this.inputHandeler} name="duration"  id="duration" value={this.state.duration} className="welcome-input" type="text"required />
                     </div>
                     <input className="button" onClick={this.deployContract} type="button" value="Deploy contract" />
                 </div>:null

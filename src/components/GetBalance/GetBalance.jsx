@@ -61,7 +61,7 @@ export default class GetBalance extends Component {
                 <div className="welcome-form">
                     <div className="welcome-form-input">
                     <label htmlFor="address" className="welcome-label">Address</label>
-                    <input placeholder="" onChange={this.inputHandeler} id="address" value={this.state.address} className="welcome-input" type="text" required/>
+                    <input placeholder="" onChange={this.inputHandeler} name="address" id="address" value={this.state.address} className="welcome-input" type="text" required/>
                     </div>
                    
                     <input className="button" onClick={this.getBalance} type="button" value="Get Balance" />

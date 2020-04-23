@@ -57,7 +57,7 @@ export default class GetContractAddress extends Component {
                 <div className="welcome-form">
                     <div className="welcome-form-input">
                     <label htmlFor="txHash" className="welcome-label">txHash</label>
-                    <input placeholder="" onChange={this.inputHandeler} id="txHash" value={this.state.txHash} className="welcome-input" type="text" required/>
+                    <input placeholder="" onChange={this.inputHandeler} name="txHash" id="txHash" value={this.state.txHash} className="welcome-input" type="text" required/>
                     </div>
                    
                     <input className="button" onClick={this.getContractAddress} type="button" value="Get Contract Address" />

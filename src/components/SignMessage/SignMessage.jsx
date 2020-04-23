@@ -62,19 +62,19 @@ export default class SignMessage extends Component {
                 <div className="welcome-form">
                     <div className="welcome-form-input">
                     <label htmlFor="signer" className="welcome-label">Signer</label>
-                    <input placeholder="" onChange={this.inputHandeler} id="signer" value={this.state.signer} className="welcome-input" type="text" required/>
+                    <input placeholder="" onChange={this.inputHandeler} name="signer" id="signer" value={this.state.signer} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
                     <label htmlFor="recipient" className="welcome-label">Recipient</label>
-                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} id="recipient" value={this.state.recipient} className="welcome-input" type="text" required/>
+                    <input placeholder="john@xyx.com" onChange={this.inputHandeler} name="recipient" id="recipient" value={this.state.recipient} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
                     <label htmlFor="amount" className="welcome-label">amount</label>
-                    <input onChange={this.inputHandeler}  id="amount" value={this.state.amount} className="welcome-input" type="text"required />
+                    <input onChange={this.inputHandeler} name="amount"  id="amount" value={this.state.amount} className="welcome-input" type="text"required />
                     </div>
                     <div className="welcome-form-input">
                     <label htmlFor="contractAddress" className="welcome-label">contractAddress</label>
-                    <input onChange={this.inputHandeler}  id="contractAddress" value={this.state.contractAddress} className="welcome-input" type="text"required />
+                    <input onChange={this.inputHandeler} name="contractAddress"  id="contractAddress" value={this.state.contractAddress} className="welcome-input" type="text"required />
                     </div>
                     <input className="button" onClick={this.signMessage} type="button" value="Sign Contract" />
                 
