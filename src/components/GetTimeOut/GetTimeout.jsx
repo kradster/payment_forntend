@@ -30,7 +30,7 @@ export default class GetTimeout extends Component {
             if(data.status==="success"){
                 return !!data? <Success 
                 label="Timeout" 
-                data={data.data}
+                data={new Date(data.data*1000).toLocaleDateString()}
                 button="Check Again"
                 handler={this.resetState}
                 icon="schedule"
