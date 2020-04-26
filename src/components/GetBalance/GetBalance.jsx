@@ -32,7 +32,7 @@ export default class GetBalance extends Component {
             return !!data? <Success 
             label="Balance" 
             data={data.data}
-            button="Claim Again"
+            button="Check Again"
             handler={this.resetState}
             icon="account_balance_wallet"
             />:null

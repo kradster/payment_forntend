@@ -58,7 +58,7 @@ class Index extends PureComponent {
             <div className="welcome">
                 <div className="welcome-image"></div>
                 <div className="wrapper">
-                <div className="welcome-heading-small">Welcome in </div>
+                <div className="welcome-heading-small">Welcome to </div>
                 <div className="welcome-heading-big">Payment-Channel</div>
                 <div className="welcome-form">
                     <div className="welcome-form-input">

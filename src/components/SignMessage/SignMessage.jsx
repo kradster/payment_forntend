@@ -34,7 +34,7 @@ export default class SignMessage extends Component {
             return !!data? <Success 
             label="Sign Message" 
             data={data.data}
-            button="Claim Again"
+            button="Sign Again"
             handler={this.resetState}
             icon="assignment_turned_in"
             />:null

@@ -29,7 +29,7 @@ export default class GetContractAddress extends Component {
             return !!data? <Success 
             label="Contract Address" 
             data={data.data}
-            button="Claim Again"
+            button="Check Again"
             handler={this.resetState}
             icon="contacts"
             />:null

@@ -11,8 +11,8 @@ export default class Deploy extends Component {
         super(props)
         this.state = {
             "sender":sessionStorage.address, 
-            "recipient":"0xF1638221192ebeB5B423ECC984cE737e44FB1a97",
-            "amount": "0.1",
+            "recipient":"0xf1638221192ebeb5b423ecc984ce737e44fb1a97",
+            "amount": "100",
             "duration":"180"
             } 
             this.deployContract = this.deployContract.bind(this);
@@ -37,7 +37,7 @@ export default class Deploy extends Component {
             return !!data? <Success 
             label="Deploy Contract" 
             data={data.data}
-            button="Claim Again"
+            button="Deploy Again"
             handler={this.resetState}
             icon="description"
             />:null

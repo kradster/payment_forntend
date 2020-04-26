@@ -31,7 +31,7 @@ export default class Destroy extends Component {
             return !!data? <Success 
             label=" Destroy Contract" 
             data={data.data}
-            button="Claim Again"
+            button="Destroy Again"
             handler={this.resetState}
             icon="delete"
             />:null
