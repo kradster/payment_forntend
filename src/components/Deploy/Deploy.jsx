@@ -73,11 +73,11 @@ export default class Deploy extends Component {
                     <input placeholder="john@xyx.com" onChange={this.inputHandeler} name="recipient" id="recipient" value={this.state.recipient} className="welcome-input" type="text" required/>
                     </div>
                     <div className="welcome-form-input">
-                    <label htmlFor="amount" className="welcome-label">amount</label>
+                    <label htmlFor="amount" className="welcome-label">amount (in wei)</label>
                     <input onChange={this.inputHandeler} name="amount"  id="amount" value={this.state.amount} className="welcome-input" type="text"required />
                     </div>
                     <div className="welcome-form-input">
-                    <label htmlFor="duration" className="welcome-label">duration</label>
+                    <label htmlFor="duration" className="welcome-label">duration (in sec)</label>
                     <input onChange={this.inputHandeler} name="duration"  id="duration" value={this.state.duration} className="welcome-input" type="text"required />
                     </div>
                     <input className="button" onClick={this.deployContract} type="button" value="Deploy contract" />
